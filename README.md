@@ -1,4 +1,4 @@
-# CoViD-19 Notifier
+# CoViD-19 Probability Detector
 
 ## To run this Project please follow these steps
 
