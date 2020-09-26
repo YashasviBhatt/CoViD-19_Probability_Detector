@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COVID-19 Probability Detector</title>
+  <meta charset="utf-8">
+  <meta name="keyword" content="COVID-19 probability Detector,basic survey form for covid">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../static/bootstrap-4.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+  <link rel="stylesheet"type="text/css" href="file:///C:/Users/Yashvardhan%20Goel/Desktop/coursera%20webdesigning/fontawesome-free-5.13.0-web/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab:wght@500&family=Salsa&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand logo" href="#">
+    <img src="../static/images/logo.png" width="150" alt="" loading="lazy">
+  </a>
+  <a class="navbar-brand name" href="#">COVID-19 Detector</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav menu ">
+      <li class="nav-item active ">
+        <a class="nav-link" href="http://127.0.0.1:5000/"><i class="fas fa-home"></i>&nbsp;Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-user-tie"></i>&nbsp;About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-file-alt"></i>&nbsp;About Project</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 text-center mt-5">
+        <h2 class="heading2">COVID - 19 Probability Detector</h2>
+      </div>      
+    </div>
+  </div>
+</section>
+<section>
+ <div class="container">
+    <form action="/" method="POST">
+      <h4 class="heading4 text-center">Survey Form</h4>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4 "class="lab ">First Name</label>
+      <input type="text" class="form-control data" required title="Only alphabats are allowed i.e.a-zA-Z" name="fname" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6 lab">
+      <label for="inputPassword4">Last Name</label>
+      <input type="text" class="form-control data" required title="Only alphabats are allowed i.e.a-zA-Z"name="lname" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6 lab">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control data" id="inputEmail4"name="email" placeholder="someone@xyz.com" required title="Fill your email addree for eg name123@xyz.com">
+    </div>
+    <div class="form-group col-md-6 lab">
+      <label for="inputPassword4">Phone</label>
+      <input type="tel" class="form-control data" id="inputPassword4" name="phone" required title="Please Enter Your Mobile Number">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress" class="lab">Address line 1</label>
+    <input type="text" class="form-control data" id="inputAddress" name="add1"placeholder="1234 Main St" required title="Please Type Your Address Here">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2" class="lab">Address line 2</label>
+    <input type="text" class="form-control data" id="inputAddress2" name="add2"placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity" class="lab">City</label>
+      <input type="text" class="form-control data" id="inputCity" required name="city" title="Please enter your city">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState"class="lab">State</label>
+      <select id="inputState" class="form-control data">
+        <option selected>Your-State</option>
+        <option name="state">Andaman and Nicobar Islands</option>
+        <option name="state">Andhra Pradesh</option>
+        <option name="state">Arunachal Pradesh</option>
+        <option name="state">Assam</option>
+        <option name="state">Bihar</option>
+        <option name="state">Chandigarh</option>
+        <option name="state">Chhattisgarh</option>
+        <option name="state">Dadra & Nagar Haveli and Daman & Diu</option>
+        <option name="state">Delhi</option>
+        <option name="state">Goa</option>
+        <option name="state">Gujrat</option>
+        <option name="state">Haryana</option>
+        <option name="state">Himachal Pradesh</option>
+        <option name="state">Jammu and Kashmir</option>
+        <option name="state">Jharkhand</option>
+        <option name="state">Karnataka</option>
+        <option name="state">Kerala</option>
+        <option name="state">Ladakh</option>
+        <option name="state">Lakshadweep</option>
+        <option name="state">Madhya Pradesh</option>
+        <option name="state">Maharashtra</option>
+        <option name="state">Manipur</option>
+        <option name="state">Meghalaya</option>
+        <option name="state">Mizoram</option>
+        <option name="state">Nagaland</option>
+        <option name="state">Odisha</option>
+        <option name="state">Puducherry</option>
+        <option name="state">Punjab</option>
+        <option name="state">Rajasthan</option>
+        <option name="state">Sikkim</option>
+        <option name="state">Tamil Nadu</option>
+        <option name="state">Tlangana</option>
+        <option name="state">Tripura</option>
+        <option name="state">Uttar Pradesh</option>
+        <option name="state">Uttrakhand</option>
+        <option name="state">West Bengal</option>
+        
+        
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip" class="lab">Pin Code</label>
+      <input type="text" class="form-control data"  name="pin" required title="Please enter your six digit pincode" id="inputZip">
+    </div>
+  </div>
+  <hr bold>
+  <div class="row">
+    <div class="form-group col-md-6">
+    <label for="fever "class="lab ">Please Enter Your Age</label>
+    <input type="text" class="form-control data" required title="Only numbers are allowed" name="age" id="age">
+  </div>
+  <div class="form-group col-md-6">
+      <label for="fever "class="lab ">Please Let Us Know Your Body Temperature</label>
+      <input type="text" class="form-control data" required title="Only numbers are allowed" placeholder="&#8451;" name="fever" id="fever">
+    </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="runnyNose"class="lab">Is Your Nose Runny ?</label>
+        <select name="runnyNose" id="runnyNose" class="form-control data">
+          <option selected disabled>Please Choose</option>
+          <option name="difficuly_breathing" value="1">No</option>
+          <option name="difficuly_breathing" value="0">Yes</option>
+         </select>
+       </div>
+      <div class="form-group col-md-6">
+      <label for="diffBreath"class="lab">Do You Have Difficulty In Breathing?</label>
+      <select name="diffBreath" id="diffBreath" class="form-control data">
+        <option selected disabled>Please Choose</option>
+        <option name="breathing" value="-1">No Difficulty</option>
+        <option name="breathing" value="0">Little Difficulty</option>
+         <option name="breathing" value="1">Severe Difficulty</option>
+       </select>
+     </div>
+  </div>
+  <div class="row">
+    <div class="form-group col-md-6">
+       <label for="pain"class="lab">Do You Have Any Body Pain ?</label>
+      <select id="pain" name="pain" class="form-control data">
+        <option selected disabled>Please Choose</option>
+        <option name="pain"value="1">Severe Body Pain</option>
+         <option name="pain"value="0">No Body Pain</option>
+       </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="travel"class="lab">Have You Travelled Internationally ?</label>
+      <select id="travel" class="form-control data">
+        <option selected disabled>Please Choose</option>
+        <option name="travel_history"value="1">No</option>
+        <option name="travel_history"value="0">Yes</option>
+       </select>
+     </div>
+  </div>
+  <div class="row">
+    <div class="form-group col-md-12 text-center">
+      <button class="btn btn-success " onclick="result()">Submit </button>
+    </div>
+  </div>
+</form>
+ </div>
+</section>
+
+</body>
+
+</html>
+<form>
