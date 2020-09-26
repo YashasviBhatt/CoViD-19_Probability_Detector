@@ -14,7 +14,7 @@
 3. Now, type<br>`.\covid_prob\Scripts\activate`<br>and press enter.
     - if you are having Error while _activating virtual environment_ then open _command prompt_ or _powershell window_ as _administrator_.
     - now type<br>`set-executionpolicy remotesigned`<br>press enter and repeat _step 3_.
-4. After activating _virtual environment_, the _path_ should look like this ```(covid_prob) .\<your-path>\CoViD-19_Notifier```.
+4. After activating _virtual environment_, the _path_ should look like this ```(covid_prob) .\<your-path>\CoViD-19_Probability_Detector```.
 5. Running the Project
     - If you want to use the _trained model_ then simply run the _server_ using this<br>`python srvr.py`<br>And use the link to access.
     - If you want to _retrain_ the _model_ then, firstly, execute<br>`python covid_prob.py`<br>after _training_ the _model_ execute<br>`python srvr.py`<br>And use the link to access.
