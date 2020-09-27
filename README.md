@@ -26,4 +26,4 @@ In case you don't want to use _virtual environment_ which has all the required _
 2. Type<br>`pip install -r requirements.txt`<br> and press enter in either _command_prompt_ or _powershell window_ as _administrator_.
 3. After Installing all the required _libraries_ execute the _training_ first(**if you want to _retrain_ the _model_, otherwise directly run _part 2_ of this step**)<br>`python covid_prob.py`<br>now execute the server<br>`python srvr.py`<br>And use the link to access.
 
-**This Model is completely trained on random data, thus accuracy is 100% wrong**.
+**This Model is completely trained on random data, thus accuracy should not be taken in concern, however if real stats is used for training it can perform much-much better**.
