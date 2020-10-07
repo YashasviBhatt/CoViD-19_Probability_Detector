@@ -15,7 +15,7 @@ This Project use **Logistic Regression** to calculate **Probability** of a perso
 ## Working
 
 1. Firstly, _data_ is imported using `pandas library`.
-2. Secondly, we divide the _features_ and _label_ into to seperate _dataframes_.
+2. Secondly, we divide the _features_ and _label_ into seperate _dataframes_.
 3. Now, after creating the separate dataframes for features and label, we split them into _training_ and _testing_ sets.
 4. The _training set_ is used to train the _model_ using **Logistic Regression** (since, we are talking about probability and Tabular Datasets, thus _Logistic Regression_ best fit the approach).
 5. The _trained model_ is saved into a file using `pickle` module in _python_.
