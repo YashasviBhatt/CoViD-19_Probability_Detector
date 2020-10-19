@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67b38879-6b65-4be7-8bf0-8c28aab06f20" name="Default Changelist" comment="" />
+    <list default="true" id="67b38879-6b65-4be7-8bf0-8c28aab06f20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CoViD-19 Detection Probability.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CoViD-19 Detection Probability.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/model.pkl" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1huvoJLXSHMBRGtDw4kg8OiKYU0" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -32,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.srvr">
+  <component name="RunManager" selected="Python.covid_prob">
     <configuration name="covid_prob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CoViD-19 Detection Probability" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.srvr" />
         <item itemvalue="Python.covid_prob" />
+        <item itemvalue="Python.srvr" />
       </list>
     </recent_temporary>
   </component>
@@ -94,5 +104,16 @@
       <updated>1600873964846</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
